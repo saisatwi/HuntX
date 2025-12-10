@@ -60,6 +60,12 @@ Dashboard includes:
 - Yearly trends
 - Insights for policymakers / wildlife departments
 
+## 📊 HuntX Dashboard
+
+### 📥 Download Power BI Dashboard (PBIX)
+👉 **[Download HuntX Dashboard](https://github.com/saisatwi/HuntX/visuals/HuntX.pbix)**
+
+
 ## 🚧 In Progress (30%)
 
 ### **4. AI Voice Search Engine (Planned)**
