@@ -1,5 +1,5 @@
 # 🦊 HuntX – Wildlife Safety Data Engineering Project  
-### Status: 🚧 70% Complete | 📊 Dashboard Ready | 🤖 AI Module In Progress
+### Status: 🚧 75% Complete | 📊 Dashboard Ready | 🤖 AI Module In Progress
 
 HuntX is an **end-to-end Data Engineering & Analytics project** built to analyze wildlife attack data, generate risk insights, and prepare a foundation for an AI-powered voice/semantic search agent.
 
@@ -37,7 +37,7 @@ HuntX solves a real-world use case:
 
 ---
 
-## ✔️ Completed (70%)
+## ✔️ Completed (75%)
 
 ### **1. ETL Pipeline (Raw → Processed → Transformed)**
 - Removed duplicates across 1,000+ rows  
@@ -61,12 +61,11 @@ Dashboard includes:
 - Insights for policymakers / wildlife departments
 
 ## 📊 HuntX Dashboard
-
-### 📥 Download Power BI Dashboard (PBIX)
-👉 **[Download HuntX Dashboard](https://github.com/saisatwi/HuntX/visuals/HuntX.pbix)**
+<img width="1366" height="571" alt="HuntX dashboard" src="https://github.com/user-attachments/assets/ac24c9ef-18bf-4ee7-a092-d44db3a787b8" />
 
 
-## 🚧 In Progress (30%)
+
+## 🚧 In Progress (25%)
 
 ### **4. AI Voice Search Engine (Planned)**
 To be implemented:
@@ -80,8 +79,4 @@ To be implemented:
 - Add Snowflake warehouse version  
 - Add pipeline orchestration (Prefect / Airflow)  
 - Add interactive Streamlit app  
-- Expand dashboard with predictive analytics  
-
-
-## 📌 How to Run the ETL (Current Version)
-
+- Expand dashboard with predictive analytics 
