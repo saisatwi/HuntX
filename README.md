@@ -1,82 +1,61 @@
-# 🦊 HuntX – Wildlife Safety Data Engineering Project  
-### Status: 🚧 75% Complete | 📊 Dashboard Ready | 🤖 AI Module In Progress
+# 🛡️ HuntX – Safety Data Engineering & Incident Analytics Platform
+### Status: 🚧 75% Complete | 📊 Dashboard Live | 🤖 AI Safety Agent In-Progress
 
-HuntX is an **end-to-end Data Engineering & Analytics project** built to analyze wildlife attack data, generate risk insights, and prepare a foundation for an AI-powered voice/semantic search agent.
-
-This project demonstrates:
-- Data engineering pipeline (Raw → Processed → Transformed)
-- Automated data cleaning & validation
-- Feature engineering (risk scoring, attack categories, severity levels)
-- BI dashboard for insights
-- Future integration of multimodal AI interaction
-
-
-## 📌 Project Overview
-
-HuntX solves a real-world use case:
-
-> “How can wildlife attack data be analyzed, cleaned, transformed, and visualized to help track, predict, and reduce risk?”
-
-## 🛠️ Tech Stack
-
-### **Data Engineering**
-- Python (Pandas, NumPy)
-- ETL workflows (cleaning → transformation → loading)
-- Feature engineering
-- Data quality validation
-
-### **Storage / Warehouse**
-- SQLite (current)
-- Snowflake-ready structure (planned)
-
-### **Analytics & Visualization**
-- Power BI Dashboard  
-- KPI cards, risk charts, location heatmaps
-
-
+**HuntX** is a high-performance Data Engineering and Analytics platform designed to process, classify, and visualize large-scale safety incident data. While the current dataset focuses on wildlife safety, the architecture is built to mirror **Global Trust & Safety Operations** used by major platforms (like YouTube/Google) to manage risk, enforce policy, and automate incident escalation.
 
 ---
 
-## ✔️ Completed (75%)
+## 🎯 Project Impact (Trust & Safety Focus)
+This project solves the "Scale" problem in safety operations:
+> "How can we transform thousands of raw, messy incident reports into actionable risk scores that help human moderators prioritize high-harm cases?"
 
-### **1. ETL Pipeline (Raw → Processed → Transformed)**
-- Removed duplicates across 1,000+ rows  
-- Fixed nulls, irregular values, inconsistent casing  
-- Standardized species name formats  
-- Created structured schema
+## 🛠️ Technical Ecosystem
 
-### **2. Feature Engineering**
-Added derived columns:
-- `risk_score`
-- `is_dangerous`
-- `region_category`
-- `attack_severity`
+### **Data Operations & Engineering**
+- **Python (Pandas, NumPy):** Automated ETL pipeline for cleaning 1,000+ raw incident records.
+- **Data Integrity:** Implemented schema normalization, null-handling, and de-duplication to ensure "Single Source of Truth."
+- **Feature Engineering:** Developed custom logic for `risk_score` and `attack_severity` to automate incident prioritization.
 
-### **3. Power BI Dashboard**
-Dashboard includes:
-- Total attacks by region
-- Severity-level heatmap
-- Species-wise risk score
-- Yearly trends
-- Insights for policymakers / wildlife departments
+### **Analytics & Intelligence**
+- **Power BI:** Interactive Command Center for safety leads to track regional risk heatmaps and severity trends.
+- **SQL:** Complex aggregations for trend analysis and warehouse-ready (Snowflake-style) data modeling.
 
-## 📊 HuntX Dashboard
+---
+
+## ✔️ Core Deliverables (75% Complete)
+
+### 1. The Safety Data Pipeline (Raw → Transformed)
+* **High-Volume Processing:** Standardized inconsistent inputs from multiple sources into a unified safety schema.
+* **Quality Enforcement:** Reduced data noise by fixing irregular values and inconsistent casing—mirroring the precision required in YouTube auditing.
+
+### 2. Algorithmic Risk Scoring (Policy Logic)
+I engineered specific indicators to simulate **Trust & Safety workflows**:
+* `risk_score`: A weighted calculation based on incident impact.
+* `is_dangerous`: A boolean flag for immediate escalation (SLA-driven).
+* `attack_severity`: Categorical classification to guide policy enforcement.
+
+### 3. Safety Operations Dashboard
+* **Regional Heatmaps:** Identifying "High-Harm" geographic zones.
+* **KPI Tracking:** Monitoring total incidents, severity distribution, and yearly trends.
+* **Stakeholder Insights:** Visuals designed for "Executive Review" to guide safety policy changes.
+
+## 📊 Operational Dashboard Preview
 <img width="1366" height="571" alt="HuntX dashboard" src="https://github.com/user-attachments/assets/ac24c9ef-18bf-4ee7-a092-d44db3a787b8" />
 
+---
 
+## 🚧 Roadmap (25% In-Progress)
 
-## 🚧 In Progress (25%)
+### 🤖 AI-Assisted Safety Investigator (Upcoming)
+Building a multimodal module to allow safety investigators to query the database using natural language:
+- **Speech-to-Query:** Using Whisper for voice-activated incident retrieval.
+- **LLM Integration:** Llama-based agent to explain "Why" a specific incident was flagged as high-risk.
+- **Scalability:** Transitioning the local SQLite database to a **Snowflake Data Warehouse** for enterprise-level performance.
 
-### **4. AI Voice Search Engine (Planned)**
-To be implemented:
-- Whisper voice input  
-- Llama-based natural language query  
-- Querying transformed dataset  
-- Responding with voice/text insights  
-- Running offline (inspired by MyDataWhisperer)
+---
 
-## 🔜 Upcoming Enhancements
-- Add Snowflake warehouse version  
-- Add pipeline orchestration (Prefect / Airflow)  
-- Add interactive Streamlit app  
-- Expand dashboard with predictive analytics 
+## 👨‍💻 Candidate Alignment
+This project demonstrates my ability to handle the **technical and operational** demands of a Google Content Specialist:
+- **Operations:** Managing high-volume workflows (Ref: Amazon Robotics experience).
+- **Data:** Using SQL/Python to find the "needle in the haystack."
+- **Policy:** Applying human-in-the-loop logic to train better AI safety models.
